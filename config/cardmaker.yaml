@@ -1,0 +1,13 @@
+server:
+  enable: True
+  loglevel: "info"
+
+version:
+  0:
+    ongeki: 1.30.01
+    chuni: 2.00.00
+    maimai: 1.20.00
+  1:
+    ongeki: 1.45.01
+    chuni: 2.25.00
+    maimai: 1.45.00

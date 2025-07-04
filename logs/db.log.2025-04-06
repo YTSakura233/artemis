@@ -1,0 +1,8 @@
+[2025-04-06 22:29:04,176] INFO | Database | Creating databases...
+[2025-04-06 23:13:27,145] WARNING | Database | Successfully created owner with email None, access code 00000000000000000000, and password rhW3OmVqYdrMMbtCcQ3U Make sure to change this password and assign a real card ASAP!
+[2025-04-06 23:21:49,689] ERROR | Database | SQLAlchemy error (pymysql.err.IntegrityError) (1062, "Duplicate entry '1-00000000000000000000' for key 'aime_card.aime_card_uk'")
+[SQL: INSERT INTO aime_card (user, access_code) VALUES (%s, %s)]
+[parameters: (1, '00000000000000000000')]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)
+[2025-04-06 23:21:49,921] ERROR | Database | Failed to create card for owner with id 1
+[2025-04-06 23:23:41,511] WARNING | Database | Successfully created owner with email None, access code 00000000000000000000, and password THzGNn44mqRETxe585ec Make sure to change this password and assign a real card ASAP!
